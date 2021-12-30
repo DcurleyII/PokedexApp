@@ -5,9 +5,9 @@ let pokemonList = [
 ];
 
 for (let i = 0; i < 4; i++){
-if (pokemonList[i].legnth < 1 && pokemonList[i].legnth > 0.6){
+if (pokemonList[i].length < 1 && pokemonList[i].length > 0.6){
     document.write (pokemonList[i].name + " small fry");
-} else if (pokemonList[i].legnth < 2 && pokemonList[i].legnth > 1){
+} else if (pokemonList[i].length < 2 && pokemonList[i].length > 1){
     document.write (pokemonList[i].name + " Whoa Big Fella");
 } else {
     document.write (pokemonList[i].name + " Average Joe");
